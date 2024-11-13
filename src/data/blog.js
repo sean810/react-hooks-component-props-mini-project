@@ -1,31 +1,16 @@
-import logo from "../assets/logo";
-
-const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
-  posts: [
-    {
-      id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
-    },
-    {
-      id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
-    },
-    {
-      id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
-    },
-  ],
-};
-
-export default blogData;
+export const blogData = [
+  {
+    id: 1,
+    title: 'YouTube Automation: Strategies for Content Creation',
+    date: 'November 2024',
+    preview: 'Learn about the strategies behind automating YouTube content creation, SEO optimization, and monetization techniques.',
+    minutesToRead: 7
+  },
+  {
+    id: 2,
+    title: 'Building an Anime Search Website',
+    date: 'October 2024',
+    preview: 'Discover how I built a dynamic anime search and filter website using HTML, CSS, and JavaScript.',
+    minutesToRead: 10
+  }
+];
